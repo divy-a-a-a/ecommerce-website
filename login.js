@@ -17,5 +17,5 @@ form.addEventListener("submit",(e)=>{
   // we are storing the data of the person who is doing the login
      localStorage.setItem("loginuser",JSON.stringify(loginuser))
     alert("login done")
-    window.location.href="home.html"
+    window.location.href="index.html"
 })
